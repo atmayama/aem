@@ -1,0 +1,15 @@
+@import "./bulma.min.css";
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 769px) {
+    img {
+        height: 300px;
+        width: 300px;
+    }
+}
